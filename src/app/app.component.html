@@ -1,1 +1,5 @@
-<router-outlet></router-outlet>
+<router-outlet>
+
+    <pre *ngFor="let item of items | async" >{{item.name}}</pre>
+
+</router-outlet>
